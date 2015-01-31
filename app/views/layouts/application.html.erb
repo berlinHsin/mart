@@ -4,10 +4,38 @@
   <title>Shop</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta charset="utf-8">
 </head>
 <body>
-	<header>header</header>
+	<header>
+		<div class='logo'>logo</div>
+		<div class='funct'>
+			<ul>
+				<li class='greeting'>greeting</li>
+				<li class='login'>login</li>
+				<li class='account'>account</li>
+				<li class='detail'>details</li>
+				<li class='introduct'>introduct</li>
+				<li class='search'>search<li>
+			</ul>
+		</div>
+	</header>
+	<div class='banner'>
+		<ul>
+			<li>精選折扣</li>
+			<li>精選折扣</li>
+			<li>本週新品</li>
+			<li>熱賣商品</li>
+			<li>追加到貨</li>
+			<li>PRODUCT1</li>
+			<li>PRODUCT2</li>
+			<li>PRODUCT3</li>
+			<li>PRODUCT4</li>
+			<li>PRODUCT5</li>
+			<li>PRODUCT6</li>
+			<li>SHOPCART</li>
+		</ul>
+	</div>
 
 <%= yield %>
 
