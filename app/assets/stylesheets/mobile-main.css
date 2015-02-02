@@ -1,0 +1,25 @@
+footer {
+  position : fixed ;
+  bottom : 0px ;
+  background-color : #e1e1e1 ;
+  width : 100%; 
+  text-align : center; 
+}
+footer .container {
+  padding : 0 ;
+}
+footer ul{
+  height : 30px ;
+  list-style-type : none ;
+  margin-left : 0px; 
+  padding:0px;
+}
+
+footer ul li {
+  float : left ;
+  width : 25% ;
+  text-align : center ;
+  font-size : 14px ;
+  height : 30px ;
+  padding : 10px ;
+}
