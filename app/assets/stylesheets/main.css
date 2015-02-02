@@ -1,0 +1,51 @@
+header {
+	height : 120px ; 
+	position : relative ;
+}
+
+header .logo {
+	float : left ;
+	width : 500px ;
+	padding : 5px ;
+	background-color : #eee ;
+	height : 100px ;
+	margin : 5px ;
+}
+
+header .funct , header .funct ul {
+	float : right ;
+	bottom : 5px; 
+}
+
+header .funct li {
+	float : left ;
+	text-align : center ;
+	border-right : 1px dotted black ;
+	margin : 100px 3px 0px 10px ;
+	padding-right : 12px ;
+}
+header .funct .search {
+	border-right : 0px ;
+	margin-left : 3px; 
+}
+
+.banner {
+	margin-top : 20px;
+	height : 30px ;
+	background-color : pink ;
+}
+
+.banner li {
+	float : left ;
+	letter-spacing : 1px ;
+	margin : 8px 14px 0px 10px ;
+	font-size : 16px ;
+}
+
+footer {
+	height : 200px ;
+	width : 100% ;
+	margin-top : 10px ;
+	background-color : #e1e1e1;
+	float : left ; 
+}
