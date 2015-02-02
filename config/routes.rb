@@ -21,6 +21,8 @@ Rails.application.routes.draw do
 
   get 'home/product' => 'home#product'
 
+  get 'mobile' => 'mobile#index'
+
   root :to => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
