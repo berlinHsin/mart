@@ -1,9 +1,12 @@
+body {
+  padding-top : 70px;
+}
 footer {
-  position : fixed ;
   bottom : 0px ;
   background-color : #e1e1e1 ;
   width : 100%; 
   text-align : center; 
+  margin-top : 10px;
 }
 footer .container {
   padding : 0 ;
@@ -26,4 +29,29 @@ footer ul li {
 
 .nav-tabs {
   margin-top : 20px;
+}
+.nav-target{
+  width:100%;
+}
+.nav-target .container-fluid {
+  width : 100%;
+  margin:0px;
+  padding-top:8px;
+}
+
+.nav-target .container-fluid .product{
+  width : 48% ;
+  height : 150px;
+  background-color:#e1e1e1;
+  margin:1%;
+  margin-top:5px;
+  float:left;
+}
+
+.nav-target [hit=second] .product {
+  background-color :black;
+}
+
+.nav-target [hit=third] .product {
+  background-color :pink;
 }
