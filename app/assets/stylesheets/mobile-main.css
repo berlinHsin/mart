@@ -55,3 +55,11 @@ footer ul li {
 .nav-target [hit=third] .product {
   background-color :pink;
 }
+
+#product-list .product {
+	float : left ;
+	width : 48% ;
+	margin :1% ;
+	background-color:#e1e1e1 ;
+	height :140px;
+}
