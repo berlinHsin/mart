@@ -8,4 +8,10 @@ $(document).ready(function(){
         $('[hit]').hide();
         $('[hit='+$hit+']').show();
 	});
+	$('#product-page .more div').hide();
+	$('[target]').click(function(){
+		$('#product-page .more div').hide();
+		$hit = $(this).attr('target')
+		$('.'+$hit).show();
+	});
 });
