@@ -6,4 +6,6 @@ class MobileController < ApplicationController
 	end
 	def product
 	end
+    def cart
+    end
 end

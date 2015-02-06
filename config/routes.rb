@@ -27,6 +27,8 @@ Rails.application.routes.draw do
 
   get 'mobile/category' => 'mobile#category'
 
+  get 'mobile/cart' => 'mobile#cart'
+
   root :to => 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
