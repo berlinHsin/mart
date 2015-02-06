@@ -1,4 +1,4 @@
-$(document).ready(function(){
+var ready = function(){
     $('[hit=second]').hide();
     $('[hit=third]').hide();
 	$('#bottom-nav li').click(function(){
@@ -14,4 +14,7 @@ $(document).ready(function(){
 		$hit = $(this).attr('target')
 		$('.'+$hit).show();
 	});
-});
+};
+
+$(document).ready(ready);
+$(document).on('page:load',ready);

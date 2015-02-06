@@ -25,18 +25,18 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">特惠商品</a></li>
-				<li><a href="#">特惠商品</a></li>
+				<li><%= link_to '特惠商品' , url_for(:controller=>'mobile',:action=>'category')%></li>
+				<li><%= link_to '特惠商品' , url_for(:controller=>'mobile',:action=>'category')%></li>
 				<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">種類<span class="caret"></span></a>
 				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">productA</a></li>
-					<li><a href="#">productA</a></li>
-					<li><a href="#">productA</a></li>
-					<li><a href="#">productA</a></li>
+					<li><%= link_to 'productA' , url_for(:controller=>'mobile',:action=>'product')%></li>
+					<li><%= link_to 'productA' , url_for(:controller=>'mobile',:action=>'product')%></li>
+					<li><%= link_to 'productA' , url_for(:controller=>'mobile',:action=>'product')%></li>
+					<li><%= link_to 'productA' , url_for(:controller=>'mobile',:action=>'product')%></li>
 					<li class="divider"></li>
-					<li><a href="#">productB</a></li>
-					<li><a href="#">productB</a></li>
+					<li><%= link_to 'productB' , url_for(:controller=>'mobile',:action=>'product')%></li>
+					<li><%= link_to 'productB' , url_for(:controller=>'mobile',:action=>'product')%></li>
 				</ul>
 				</li>
                 <li class="divider"></li>
