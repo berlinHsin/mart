@@ -23,6 +23,8 @@ Rails.application.routes.draw do
 
   get 'mobile' => 'mobile#index'
 
+  get 'mobile/product' => 'mobile#product'
+
   get 'mobile/category' => 'mobile#category'
 
   root :to => 'home#index'

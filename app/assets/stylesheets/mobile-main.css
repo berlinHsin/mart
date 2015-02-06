@@ -27,6 +27,9 @@ footer ul li {
   padding : 10px ;
 }
 
+#product-page {
+	font-size:16px;
+}
 .nav-tabs {
   margin-top : 20px;
 }
@@ -62,4 +65,26 @@ footer ul li {
 	margin :1% ;
 	background-color:#e1e1e1 ;
 	height :140px;
+}
+.link-icon {
+	height : 40px;
+}
+.link-icon li {
+	float:right ;
+	margin : 10px ;
+	list-style:none;
+}
+.desc div {
+	margin-top :15px;
+}
+.desc span {
+	font-size :20px;
+}
+.add {
+	margin-top:10px;
+}
+.funct {
+	margin-top:15px;
+	text-align: center;
+	margin-bottom:15px;
 }

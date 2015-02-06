@@ -4,4 +4,6 @@ class MobileController < ApplicationController
 	end 
 	def category
 	end
+	def product
+	end
 end
