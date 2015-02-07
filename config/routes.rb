@@ -24,6 +24,8 @@ Rails.application.routes.draw do
   get 'mobile' => 'mobile#index'
 
   get 'mobile/login' => 'mobile#login'
+  
+  get 'mobile/signup' => 'mobile#signup'
 
   get 'mobile/product' => 'mobile#product'
 
