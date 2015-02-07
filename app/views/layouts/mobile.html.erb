@@ -40,7 +40,7 @@
 				</ul>
 				</li>
                 <li class="divider"></li>
-                <li><a href='#'>會員登入</a></li>
+				<li><%= link_to '會員登入' , url_for(:action=>'login')%></li>
                 <li><%= link_to '購物車' , url_for(:controller=>'mobile',:action=>'cart')%></li>
 			</ul>
 			<form class="navbar-form navbar-left" role="search">

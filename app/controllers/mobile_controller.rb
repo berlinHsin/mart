@@ -8,4 +8,6 @@ class MobileController < ApplicationController
 	end
     def cart
     end
+	def login
+	end
 end
