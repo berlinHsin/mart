@@ -132,6 +132,8 @@ footer ul li {
 	border:3px solid #e1e1e1;
 	border-top:0px;
 	margin-bottom:130px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
 }
 .confirm{
 	height:50px;
